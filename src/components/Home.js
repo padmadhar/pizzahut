@@ -1,4 +1,4 @@
-[09:55, 21/3/2024] +91 95795 54219: import React from 'react'
+import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';

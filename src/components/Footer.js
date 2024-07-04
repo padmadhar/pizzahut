@@ -1,6 +1,6 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";

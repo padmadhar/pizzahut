@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Booking from './components/Booking';
-import SignIn from './components/SignIN';
+import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
-import SignOut from './components/SignOut';
+// import SignOut from './components/SignOut';
 import Cart from './components/Cart';
 import Footer from './components/Footer';
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Route path='/Booking' element={<Booking />} />
           <Route path='/SignIn' element={<SignIn />} />
           <Route path='/SignUp' element={<SignUp />} />
-          <Route path='/SignOut' element={<SignOut />} />
+          {/* <Route path='/SignOut' element={<SignOut />} /> */}
           <Route path='/Cart' element={<Cart />} />
         </Routes>
         <Footer/>
